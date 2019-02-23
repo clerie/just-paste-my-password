@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Just Paste My Password",
+  "version": "0.0.1",
+
+  "description": "Re-enables password pasting, when it is blocked by the web page.",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["*://meine.ikk-suedwest.de/*"],
+      "js": ["assets/meine.ikk-suedwest.de/script.js"]
+    }
+  ]
+}
