@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Just Paste My Password",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "description": "Re-enables password pasting, when it is blocked by the web page.",
 
