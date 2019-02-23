@@ -12,6 +12,16 @@
   "content_scripts": [
     {
       "run_at": "document_end",
+      "matches": ["*://*.ikk-gesundplus.de/*"],
+      "js": ["assets/ikk-gesundplus.de/script.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": ["*://meine.ikk-classic.de/*"],
+      "js": ["assets/meine.ikk-classic.de/script.js"]
+    },
+    {
+      "run_at": "document_end",
       "matches": ["*://meine.ikk-suedwest.de/*"],
       "js": ["assets/meine.ikk-suedwest.de/script.js"]
     }

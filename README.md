@@ -5,6 +5,8 @@ It is often really hard to deal with this circumstance, especially when using pa
 [Install now!](https://addons.mozilla.org/de/firefox/addon/just-paste-my-password/)
 
 ## Supported websites
+- ikk-gesundplus.de
+- meine.ikk-classic.de
 - meine.ikk-suedwest.de
 
 ## Installation
